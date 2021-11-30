@@ -1,0 +1,69 @@
+.box {
+    display: flex;
+    box-shadow: 2px 3px 4px ;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: 4px solid;
+    border-radius: 1px 10px 10px ;
+    width: 400px;
+    background-color: cornflowerblue;
+    text-align: center;
+  }
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+}
+.box {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  #content {
+    display: flex;
+    text-align: center;
+    text-shadow: 2px 3px 4px ;
+  
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: stretch;
+  }
+  
+  .box {
+    flex-grow: 1;
+    border: 3px solid rgba(0,0,0,.2);
+  }
+  
+  .box1 {
+    flex-grow: 2;
+    border: 3px solid rgba(0,0,0,.2);
+  } 
+  .container {
+    display: flex;
+  }
+  
+  .item {
+    flex-grow: 1;
+    height: 100px;
+  }
+  
+  .item + .item {
+    margin-left: 2%;
+  }
+  .container {
+    display: flex;
+  }
+  
+  .item {
+    height: 100px;
+    width: 100px; /* A fixed width as the default */
+  }
+  
+  .item-center { 
+    flex-grow: 1; /* Set the middle element to grow and stretch */
+  }
+  
+  .item + .item { 
+    margin-left: 2%; 
+  }
+
+  
